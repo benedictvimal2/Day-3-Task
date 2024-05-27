@@ -1,5 +1,5 @@
 function reqListener() {
-    //console.log(this.responseText);
+    console.log(this.responseText);
       const countryArr=JSON.parse(this.responseText);
       for (i=0; i<=countryArr.length-1; i++){
     //console.log(countryArr[i]);
